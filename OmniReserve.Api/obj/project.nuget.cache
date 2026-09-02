@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "6MOW+EXIzIg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Api\\OmniReserve.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anfer\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\anfer\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.OpenApi\" 2.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Api\\OmniReserve.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Api\\OmniReserve.Api.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
