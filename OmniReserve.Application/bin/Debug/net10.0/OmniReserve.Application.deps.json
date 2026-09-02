@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OmniReserve.Application/1.0.0": {
+        "dependencies": {
+          "OmniReserve.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OmniReserve.Application.dll": {}
+        }
+      },
+      "OmniReserve.Domain/1.0.0": {
+        "runtime": {
+          "OmniReserve.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OmniReserve.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OmniReserve.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

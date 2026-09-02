@@ -36,6 +36,42 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "OmniReserve.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "OmniReserve.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OmniReserve.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OmniReserve.Application.dll": {}
+        }
+      },
+      "OmniReserve.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/OmniReserve.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OmniReserve.Domain.dll": {}
+        }
+      },
+      "OmniReserve.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "OmniReserve.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OmniReserve.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OmniReserve.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -75,11 +111,28 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "OmniReserve.Application/1.0.0": {
+      "type": "project",
+      "path": "../OmniReserve.Application/OmniReserve.Application.csproj",
+      "msbuildProject": "../OmniReserve.Application/OmniReserve.Application.csproj"
+    },
+    "OmniReserve.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OmniReserve.Domain/OmniReserve.Domain.csproj",
+      "msbuildProject": "../OmniReserve.Domain/OmniReserve.Domain.csproj"
+    },
+    "OmniReserve.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj",
+      "msbuildProject": "../OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.3"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.3",
+      "OmniReserve.Application >= 1.0.0",
+      "OmniReserve.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -114,7 +167,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Application\\OmniReserve.Application.csproj": {
+              "projectPath": "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Application\\OmniReserve.Application.csproj"
+            },
+            "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Infrastructure\\OmniReserve.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Infrastructure\\OmniReserve.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
