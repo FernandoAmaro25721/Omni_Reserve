@@ -1,0 +1,16 @@
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\bin\Debug\net10.0\OmniReserve.Application.deps.json
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\bin\Debug\net10.0\OmniReserve.Application.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\bin\Debug\net10.0\OmniReserve.Application.pdb
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\bin\Debug\net10.0\OmniReserve.Domain.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\bin\Debug\net10.0\OmniReserve.Domain.pdb
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.csproj.AssemblyReference.cache
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.AssemblyInfoInputs.cache
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.AssemblyInfo.cs
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.csproj.CoreCompileInputs.cache
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.sourcelink.json
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniRese.A27A30A3.Up2Date
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\refint\OmniReserve.Application.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\OmniReserve.Application.pdb
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Application\obj\Debug\net10.0\ref\OmniReserve.Application.dll
