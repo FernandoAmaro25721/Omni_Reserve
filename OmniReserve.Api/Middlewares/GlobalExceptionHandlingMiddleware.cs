@@ -1,6 +1,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using OmniReserve.Application.Common.Exceptions;
+using OmniReserve.Domain.Exceptions;
 
 namespace OmniReserve.Api.Middlewares;
 
@@ -23,7 +24,7 @@ public class GlobalExceptionHandlingMiddleware
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Ocurrió una excepción no controlada: {Message}", ex.Message);
+            _logger.LogError(ex, "Ocurrió una excepción no manejada.");
             await HandleExceptionAsync(context, ex);
         }
     }
@@ -32,34 +33,53 @@ public class GlobalExceptionHandlingMiddleware
     {
         context.Response.ContentType = "application/problem+json";
 
+        // 1. Manejo Específico: Errores de Validación (Application)
         if (exception is ValidationException validationEx)
         {
             context.Response.StatusCode = StatusCodes.Status400BadRequest;
 
-            var problemDetails = new ProblemDetails
+            var validationProblem = new ProblemDetails
             {
                 Status = StatusCodes.Status400BadRequest,
                 Title = "Error de Validación",
-                Detail = "Ocurrieron uno o más errores de validación."
+                Type = "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1",
+                Detail = "Se enviaron datos inválidos."
             };
 
-            problemDetails.Extensions.Add("errors", validationEx.Errors);
+            validationProblem.Extensions.Add("errors", validationEx.Errors);
 
-            var json = JsonSerializer.Serialize(problemDetails);
-            await context.Response.WriteAsync(json);
+            await context.Response.WriteAsync(JsonSerializer.Serialize(validationProblem));
             return;
         }
 
+        // 2. Manejo Específico: Excepciones de Reglas de Negocio (Domain)
+        if (exception is DomainException domainEx)
+        {
+            context.Response.StatusCode = StatusCodes.Status400BadRequest;
+
+            var domainProblem = new ProblemDetails
+            {
+                Status = StatusCodes.Status400BadRequest,
+                Title = "Error de Dominio",
+                Type = "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1",
+                Detail = domainEx.Message
+            };
+
+            await context.Response.WriteAsync(JsonSerializer.Serialize(domainProblem));
+            return;
+        }
+
+        // 3. Manejo Genérico: Errores no controlados
         context.Response.StatusCode = StatusCodes.Status500InternalServerError;
 
-        var defaultProblemDetails = new ProblemDetails
+        var genericProblem = new ProblemDetails
         {
             Status = StatusCodes.Status500InternalServerError,
-            Title = "Error interno del servidor",
-            Detail = "Ocurrió un error inesperado en el servidor."
+            Title = "Error Interno del Servidor",
+            Type = "https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1",
+            Detail = "Ha ocurrido un error inesperado al procesar la solicitud."
         };
 
-        var defaultJson = JsonSerializer.Serialize(defaultProblemDetails);
-        await context.Response.WriteAsync(defaultJson);
+        await context.Response.WriteAsync(JsonSerializer.Serialize(genericProblem));
     }
 }
