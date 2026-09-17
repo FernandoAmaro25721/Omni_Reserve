@@ -1,1 +1,1 @@
-# OmniReserve - Actividad 6
+# OmniReserve - Tarea 6
