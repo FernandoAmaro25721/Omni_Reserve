@@ -38,3 +38,6 @@ C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de D
 C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Api\obj\Debug\net10.0\OmniReserve.Api.pdb
 C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Api\obj\Debug\net10.0\OmniReserve.Api.genruntimeconfig.cache
 C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Api\obj\Debug\net10.0\ref\OmniReserve.Api.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\anfer\Desktop\IGTI Quinto Semestre\7 semestre\Aplicación de Bases de Datos\Primer Semestre\Omni_Reserve\OmniReserve.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
