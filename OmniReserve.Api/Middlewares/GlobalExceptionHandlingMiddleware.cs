@@ -1,7 +1,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using OmniReserve.Application.Common.Exceptions;
-using OmniReserve.Domain.Common;
+using OmniReserve.Domain.Exceptions;
 
 namespace OmniReserve.Api.Middlewares;
 
