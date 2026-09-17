@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+YydYy7mtlA=",
+  "dgSpecHash": "s0uMab5WTS0=",
   "success": true,
   "projectFilePath": "C:\\Users\\anfer\\Desktop\\IGTI Quinto Semestre\\7 semestre\\Aplicación de Bases de Datos\\Primer Semestre\\Omni_Reserve\\OmniReserve.Infrastructure\\OmniReserve.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anfer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.12\\microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\anfer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\anfer\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
