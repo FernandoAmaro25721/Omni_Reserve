@@ -1,3 +1,5 @@
 # OmniReserve - Actividad 9: DbContext y RoomConfiguration con Fluent API
 
 - Tarea 9: Configuración de persistencia para User y Reservation con Fluent API.
+
+- Actividad 10: Migración del proyecto de SQL Server a PostgreSQL utilizando Entity Framework Core y .NET 10.0.
