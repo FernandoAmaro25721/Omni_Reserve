@@ -3,3 +3,5 @@
 - Tarea 9: Configuración de persistencia para User y Reservation con Fluent API.
 
 - Actividad 10: Migración del proyecto de SQL Server a PostgreSQL utilizando Entity Framework Core y .NET 10.0.
+
+- Tarea 10: Optimización de contratos y limpieza de métodos de persistencia.
