@@ -19,3 +19,5 @@
 - Actividad 13: Implementación del repositorio de reservaciones y carga ansiosa (Eager Loading).
 
 - Tarea 13: Implementación de CQRS Query Handler y consumo seguro de propiedades de navegación.
+
+- Actividad 14: Introducción del Value Object EmailAddress para validación estricta de dominio.
