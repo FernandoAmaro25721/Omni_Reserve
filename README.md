@@ -15,3 +15,5 @@
 - Actividad 12: Configuración de restricciones de borrado y mapeo relacional en Fluent API.
 
 - Tarea 12: Aplicación de migraciones y restricciones de integridad referencial.
+
+- Actividad 13: Implementación del repositorio de reservaciones y carga ansiosa (Eager Loading).
