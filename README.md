@@ -5,3 +5,5 @@
 - Actividad 10: Migración del proyecto de SQL Server a PostgreSQL utilizando Entity Framework Core y .NET 10.0.
 
 - Tarea 10: Optimización de contratos y limpieza de métodos de persistencia.
+
+- Actividad 11: Búsqueda segura de habitaciones mediante traducción nativa LINQ.
