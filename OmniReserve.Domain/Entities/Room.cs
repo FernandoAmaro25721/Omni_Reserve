@@ -9,6 +9,7 @@ public class Room
     public RoomType Type { get; private set; }
     public decimal PricePerNight { get; private set; }
     public bool IsAvailable { get; private set; }
+    public ICollection<Reservation> Reservations { get; private set; } = new List<Reservation>();
 
     public Room(string roomNumber, RoomType type, decimal pricePerNight)
     {
