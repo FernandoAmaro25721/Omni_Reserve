@@ -23,3 +23,5 @@
 - Actividad 14: Introducción del Value Object EmailAddress para validación estricta de dominio.
 
 - Actividad 14: Integración de Value Object EmailAddress con mapeo bidireccional en EF Core.
+
+- Tarea 14: Integración de Value Object EmailAddress con mapeo bidireccional en EF Core.
