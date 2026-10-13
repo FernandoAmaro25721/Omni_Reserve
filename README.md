@@ -17,3 +17,5 @@
 - Tarea 12: Aplicación de migraciones y restricciones de integridad referencial.
 
 - Actividad 13: Implementación del repositorio de reservaciones y carga ansiosa (Eager Loading).
+
+- Tarea 13: Implementación de CQRS Query Handler y consumo seguro de propiedades de navegación.
