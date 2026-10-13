@@ -7,3 +7,5 @@
 - Tarea 10: Optimización de contratos y limpieza de métodos de persistencia.
 
 - Actividad 11: Búsqueda segura de habitaciones mediante traducción nativa LINQ.
+
+- Tarea 11: Integración de consultas con SQL crudo parametrizado mediante FromSql.
