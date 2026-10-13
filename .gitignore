@@ -1,0 +1,10 @@
+# .NET Core / Visual Studio
+[Oo]bj/
+[Bb]in/
+.vs/
+*.user
+*.suo
+
+# Archivos de configuración locales que pueden contener credenciales
+appsettings.Development.json
+appsettings.json
