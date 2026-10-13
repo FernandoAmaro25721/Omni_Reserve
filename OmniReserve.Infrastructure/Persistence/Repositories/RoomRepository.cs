@@ -23,4 +23,11 @@ public class RoomRepository : IRoomRepository
     {
         return await _context.Rooms.FirstOrDefaultAsync(r => r.Id == id);
     }
+
+    public async Task<Room?> SearchByNumberAsync(string roomNumber)
+    {
+        // Solución Segura: EF Core parametriza automáticamente el valor evitando SQL injection
+        return await _context.Rooms
+            .FirstOrDefaultAsync(r => r.RoomNumber == roomNumber);
+    }
 }
