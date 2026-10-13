@@ -13,3 +13,5 @@
 - Actividad 12: Configuración de restricciones de borrado y mapeo relacional en Fluent API.
 
 - Actividad 12: Configuración de restricciones de borrado y mapeo relacional en Fluent API.
+
+- Tarea 12: Aplicación de migraciones y restricciones de integridad referencial.
