@@ -39,3 +39,5 @@
 - Actividad 17: Implementación de IJwtProvider y JwtProvider con IOptions<JwtSettings> sin exponer secretos ni datos sensibles en los claims.
 
 - Tarea 17: Implementación de LoginUserCommandHandler orquestando búsqueda por correo, verificación con IPasswordHasher y generación de JWT con errores genéricos.
+
+- Actividad 18: Configuración del esquema JwtBearer en el API con validación de emisor, audiencia, expiración y firma, respetando el orden UseAuthentication() antes de UseAuthorization().
