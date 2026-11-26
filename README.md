@@ -31,3 +31,5 @@
 - **Criterio de fechas:** Se utiliza `<` y `>` para el cruce de rangos; si el negocio requiere días completamente distintos sin reservas el mismo día, puede ajustarse a `<=` y `>=`.
 
 - Tarea 15: Aplicación de regla de negocio en CreateReservationCommandHandler validando disponibilidad antes de AddAsync y propagando excepciones sin tragarlas en el Handler.
+
+- Actividad 16: Abstracción IPasswordHasher en Aplicación, implementación BCryptPasswordHasher en Infraestructura y refuerzo de PasswordHash en la entidad User.
