@@ -29,3 +29,5 @@
 ### Actividad 15 - Prevención de Double-Booking en Repositorio
 - **Corrección / Rendimiento:** Se implementa `IsRoomAvailableAsync` evaluando el solapamiento de fechas directamente en base de datos mediante `AnyAsync` (`StartDate < end && EndDate > start`), evitando traer registros a memoria con `.ToList()` o `.AsEnumerable()`.
 - **Criterio de fechas:** Se utiliza `<` y `>` para el cruce de rangos; si el negocio requiere días completamente distintos sin reservas el mismo día, puede ajustarse a `<=` y `>=`.
+
+- Tarea 15: Aplicación de regla de negocio en CreateReservationCommandHandler validando disponibilidad antes de AddAsync y propagando excepciones sin tragarlas en el Handler.
