@@ -35,3 +35,5 @@
 - Actividad 16: Abstracción IPasswordHasher en Aplicación, implementación BCryptPasswordHasher en Infraestructura y refuerzo de PasswordHash en la entidad User.
 
 - Tarea 16: Hashing de contraseña en CreateUserCommandHandler mediante IPasswordHasher antes de instanciar la entidad User.
+
+- Actividad 17: Implementación de IJwtProvider y JwtProvider con IOptions<JwtSettings> sin exponer secretos ni datos sensibles en los claims.
