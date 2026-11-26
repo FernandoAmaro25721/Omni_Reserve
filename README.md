@@ -43,3 +43,5 @@
 - Actividad 18: Configuración del esquema JwtBearer en el API con validación de emisor, audiencia, expiración y firma, respetando el orden UseAuthentication(), antes de UseAuthorization().
 
 - Tarea 18: Verificación y consolidación del esquema JwtBearer con JwtSettings, TokenValidationParameters y orden UseAuthentication() antes de UseAuthorization() en el API.
+
+- Actividad 19: Definición de constantes de roles (Roles.Client / Roles.Admin), rol por defecto Client en User con PromoteToAdmin() e inclusión de ClaimTypes.Role en JwtProvider.
