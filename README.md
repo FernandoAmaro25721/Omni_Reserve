@@ -33,3 +33,5 @@
 - Tarea 15: Aplicación de regla de negocio en CreateReservationCommandHandler validando disponibilidad antes de AddAsync y propagando excepciones sin tragarlas en el Handler.
 
 - Actividad 16: Abstracción IPasswordHasher en Aplicación, implementación BCryptPasswordHasher en Infraestructura y refuerzo de PasswordHash en la entidad User.
+
+- Tarea 16: Hashing de contraseña en CreateUserCommandHandler mediante IPasswordHasher antes de instanciar la entidad User.
