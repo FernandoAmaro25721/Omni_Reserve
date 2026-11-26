@@ -49,3 +49,5 @@
 - Tarea 19: Implementación de GetAllReservationsQuery y GetAllReservationsQueryHandler, y exposición del endpoint GET /api/reservations/all protegido con [Authorize(Roles = Roles.Admin)] para control de acceso RBAC (403 Forbidden en roles no autorizados).
 
 - Actividad 20: Configuración del contenedor Redis (redis:alpine en puerto 6379) mediante Docker Compose, cadena RedisConnection en appsettings.json e integración de IDistributedCache con AddStackExchangeRedisCache.
+
+- Tarea 20: Implementación de caché en GetAllRoomsQueryHandler mediante IDistributedCache con patrón Cache-Aside (llave rooms_catalog, consulta a IRoomRepository.GetAllAsync en miss y expiración de 5 minutos con AbsoluteExpirationRelativeToNow).
