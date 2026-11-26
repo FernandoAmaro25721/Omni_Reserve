@@ -47,3 +47,5 @@
 - Actividad 19: Definición de constantes de roles (Roles.Client / Roles.Admin), rol por defecto Client en User con PromoteToAdmin() e inclusión de ClaimTypes.Role en JwtProvider.
 
 - Tarea 19: Implementación de GetAllReservationsQuery y GetAllReservationsQueryHandler, y exposición del endpoint GET /api/reservations/all protegido con [Authorize(Roles = Roles.Admin)] para control de acceso RBAC (403 Forbidden en roles no autorizados).
+
+- Actividad 20: Configuración del contenedor Redis (redis:alpine en puerto 6379) mediante Docker Compose, cadena RedisConnection en appsettings.json e integración de IDistributedCache con AddStackExchangeRedisCache.
