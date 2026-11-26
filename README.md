@@ -37,3 +37,5 @@
 - Tarea 16: Hashing de contraseña en CreateUserCommandHandler mediante IPasswordHasher antes de instanciar la entidad User.
 
 - Actividad 17: Implementación de IJwtProvider y JwtProvider con IOptions<JwtSettings> sin exponer secretos ni datos sensibles en los claims.
+
+- Tarea 17: Implementación de LoginUserCommandHandler orquestando búsqueda por correo, verificación con IPasswordHasher y generación de JWT con errores genéricos.
