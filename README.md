@@ -40,4 +40,4 @@
 
 - Tarea 17: Implementación de LoginUserCommandHandler orquestando búsqueda por correo, verificación con IPasswordHasher y generación de JWT con errores genéricos.
 
-- Actividad 18: Configuración del esquema JwtBearer en el API con validación de emisor, audiencia, expiración y firma, respetando el orden UseAuthentication() antes de UseAuthorization().
+- Actividad 18: Configuración del esquema JwtBearer en el API con validación de emisor, audiencia, expiración y firma, respetando el orden UseAuthentication(), antes de UseAuthorization().
