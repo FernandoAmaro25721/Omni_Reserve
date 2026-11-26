@@ -6,6 +6,7 @@ using OmniReserve.Api.Middlewares;
 using OmniReserve.Application;
 using OmniReserve.Infrastructure;
 using OmniReserve.Infrastructure.Security;
+using Microsoft.Extensions.Caching.Distributed;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,13 @@ builder.Services.AddSwaggerGen(options =>
             Array.Empty<string>()
         }
     });
+});
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("RedisConnection");
+    // Opcional: prefijo para las llaves, muy útil si varios microservicios usan el mismo Redis
+    options.InstanceName = "OmniReserve_"; 
 });
 
 // 2. Registro de capas (Clean Architecture)
